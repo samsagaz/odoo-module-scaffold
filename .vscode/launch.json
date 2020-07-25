@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "args": [
+                "--update=module_name",
+                "--database=borrar",
+                "--config=${workspaceFolder}../../../etc/openerp.cfg",
+            ],
+            "cwd": "${workspaceFolder}../../../",
+            "program": "${workspaceFolder}../../../bin/start_odoo",
+            "type": "python",
+            "name": "Odoo Debug",
+            "request": "launch",
+            "console": "integratedTerminal",
+        },
+    ],
+}
